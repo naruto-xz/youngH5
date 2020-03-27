@@ -46,7 +46,7 @@ module.exports = {
 
     /* 后面是空格相关的配置，都只开了默认配置，只有小部分配置没开，或者适当的放宽了限制 */
     // 强制2个空格缩进
-    'indent': [2, 2, {'SwitchCase': 1}],
+    'indent': [2, 4, {'SwitchCase': 1}],
     // 强制关键字前后都有空格， 如 if(test) 应为 if (test)
     'keyword-spacing': 2,
     // 强制 key-value 格式为 { key: value }，冒号前无空格，冒号后有空格（可以是一个也可以是多个）

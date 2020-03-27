@@ -1,0 +1,22 @@
+@import "./reset.scss";
+html, body{
+    background-color: #fcfbfc;
+}
+#app{
+    max-width: 750px;
+    margin: 0 auto;
+}
+//清楚浮动
+.clear-fix:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+
